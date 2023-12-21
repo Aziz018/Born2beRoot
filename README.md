@@ -3,11 +3,11 @@
 <h1>Mandatory Part:</h1>
 
 <h2>Project Overview:</h2>
--The basic functioning of their virtual machine
--Their choice of operating system
--The basic differences between Rocky and Debian
--The benefits of virtual machines
--If the chosen operating system is Rocky, they must explain what SELinux and DNF are.
+-The basic functioning of their virtual machine<br>
+-Their choice of operating system<br>
+-The basic differences between Rocky and Debian<br>
+-The benefits of virtual machines<br>
+-If the chosen operating system is Rocky, they must explain what SELinux and DNF are.<br>
 -If the chosen operating system is Debian, they must explain the difference between aptitude and apt, and what APPArmor is. During the defense, a script must display information every 10 minutes. Its operation will be checked in detail later. If the explanations are not clear, the evaluation stops here.
 
 <h2>Simple Configuration:</h2>
