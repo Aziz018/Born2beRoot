@@ -32,12 +32,12 @@ Finally, check that this user indeed belongs to the "evaluating" group.
 If something does not work as expected or is not clearly explained, the evaluation stops here.
 
 <h2>Hostname and Partitions:</h2>
--Verify that the hostname of the machine is formatted as follows: login42 (login of the evaluated person).
--Change this hostname by replacing the login with yours, then restart the machine. If upon restarting, the hostname has not been updated, the evaluation stops here.
--You can now restore the original hostname of the machine.
--Ask the evaluated person how to display the partitions of their virtual machine.
--Compare the output with the example given in the subject. Note: if the evaluated person has done the bonuses, you should refer to the example from the bonus part.
--How LVM works and why it's beneficial.
+-Verify that the hostname of the machine is formatted as follows: login42 (login of the evaluated person).<br>
+-Change this hostname by replacing the login with yours, then restart the machine. If upon restarting, the hostname has not been updated, the evaluation stops here.<br>
+-You can now restore the original hostname of the machine.<br>
+-Ask the evaluated person how to display the partitions of their virtual machine.<br>
+-Compare the output with the example given in the subject. Note: if the evaluated person has done the bonuses, you should refer to the example from the bonus part.<br>
+-How LVM works and why it's beneficial.<br>
 If something does not work as expected or is not clearly explained, the evaluation stops here.
 
 <h2>SUDO:</h2>
