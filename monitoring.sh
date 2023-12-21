@@ -12,7 +12,7 @@ cncNum=$(netstat -an | grep ESTABLISHED | wc -l)
 usrsLog=$(who | cut -d " " -f 1 | sort -u | wc -l)
 IPv4addr=$(hostname -I)
 MACaddr=$(ip link show | awk '/ether/ {print $2}')
-sudo=$(grep 'sudo' /var/log/sudo/sudo.log | wc -l)
+sudo=$(journalctl -q | grep COMMAND | grep sudo | wc -l)
 
 wall "
     #Architecture: $Architecture
@@ -26,6 +26,5 @@ wall "
     #Connections TCP: $cncNum ESTABLISHED
     #User log: $usrsLog
     #Network: IP $IPv4addr ($MACaddr)
-    #Sudo: $sudo cmd
-"
+    #Sudo: $sudo cmd"
 
