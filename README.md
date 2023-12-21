@@ -11,16 +11,16 @@
 -If the chosen operating system is Debian, they must explain the difference between aptitude and apt, and what APPArmor is. During the defense, a script must display information every 10 minutes. Its operation will be checked in detail later. If the explanations are not clear, the evaluation stops here.
 
 <h2>Simple Configuration:</h2>
--Verify that the machine does not have a graphical environment at startup. A password will be requested before any connection attempt on this machine. Log in with a non-root user. Verify that the chosen password respects the rules imposed in the subject. Then, with the help of the evaluator, make sure that:
--The chosen operating system is indeed Debian or Rocky
--The UFW service is properly launched
+-Verify that the machine does not have a graphical environment at startup. A password will be requested before any connection attempt on this machine. Log in with a non-root user. Verify that the chosen password respects the rules imposed in the subject. Then, with the help of the evaluator, make sure that:<br>
+-The chosen operating system is indeed Debian or Rocky<br>
+-The UFW service is properly launched<br>
 -The SSH service is properly launched. If something does not work as expected or is not clearly explained, the evaluation stops here.
 
 <h2>User:</h2>
 The subject requires that a user with the login name of the evaluated person be present on the virtual machine. Verify that this user has been added and that they belong to the "sudo" and "user42" groups.
 
-Ensure the rules imposed in the subject concerning the password policy have been implemented by following the steps below.
-First, create a new user. Assign them a password of your choice, respecting the subject's rules.
+Ensure the rules imposed in the subject concerning the password policy have been implemented by following the steps below.<br>
+First, create a new user. Assign them a password of your choice, respecting the subject's rules.<br>
 The evaluated person must now explain how they were able to implement the requested rules on their virtual machine.
 Normally, one or two files would have been modified.
 If there is any problem, the evaluation stops here.
