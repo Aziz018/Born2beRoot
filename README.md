@@ -1,9 +1,9 @@
 # Born2beRoot
 
 <h1>What is a server?</h1>
-A server, in computing, is a computer program or device dedicated to providing services to other computer programs, known as clients, and their users. The physical machine hosting a server program is also commonly referred to as a server, which may be a dedicated unit or utilized for various purposes.
-In the client/server programming model, a server program awaits and fulfills requests from client programs, either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.
-How Servers Work?
+A server, in computing, is a computer program or device dedicated to providing services to other computer programs, known as clients, and their users. The physical machine hosting a server program is also commonlyreferred to as a server, which may be a dedicated unit or utilized for various purposes.
+In the client/server programming model, a server program awaits and fulfills requests from client programs, <br>either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.
+<h1></h1>How Servers Work?</h1>
 Physical and Virtual Servers:
 A physical server is a computer solely designated for running server software.
 A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.
