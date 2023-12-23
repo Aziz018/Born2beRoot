@@ -103,13 +103,15 @@ Rocky Linux: Rocky Linux is relatively newer but gained attention as a CentOS re
 Debian: Debian aims to be a universal operating system that is free and open source. It prioritizes stability and supports a wide range of use cases and architectures.
 Rocky Linux: Rocky Linux focuses on providing a free, open-source alternative to RHEL, with the goal of offering a stable and predictable platform for enterprise users.
 <h1>What is apt and aptitude?</h1>
-APT (Advanced Package Tool):
-APT, or Advanced Package Tool, is a powerful package management system used in Debian-based Linux distributions, including Debian itself, Ubuntu, and derivatives. It is a set of tools that automate the process of installing, updating, upgrading, and removing software packages on a Linux system. APT simplifies package management tasks and resolves dependencies, ensuring that software installations and updates are handled efficiently.
-Some common APT commands include:
-apt-get: Used for handling packages. Common commands include apt-get update (updates the package lists), apt-get upgrade (upgrades installed packages), and apt-get install (installs new packages).
-apt-cache: Used for querying information about available packages.
-apt-key: Used for managing authentication keys.
-apt-config: Used for querying APT configuration settings.
+<h2>APT (Advanced Package Tool):</h2>
+<ls>APT, or Advanced Package Tool, is a powerful package management system used in Debian-based Linux distributions, including Debian itself, Ubuntu, and derivatives. It is a set of tools that automate the process of installing, updating, upgrading, and removing software packages on a Linux system. APT simplifies package management tasks and resolves dependencies, ensuring that software installations and updates are handled efficiently.</ls>
+<h3>Some common APT commands include:</h3>
+<ol>
+<ls>apt-get: Used for handling packages. Common commands include apt-get update (updates the package lists), apt-get upgrade (upgrades installed packages), and apt-get install (installs new packages).</ls>
+<ls>apt-cache: Used for querying information about available packages.</ls>
+<ls>apt-key: Used for managing authentication keys.</ls>
+<ls>apt-config: Used for querying APT configuration settings.</ls>
+</ol>
 Aptitude:
 Aptitude is another package management tool used in Debian-based systems. It provides a more user-friendly, text-based interface compared to the command-line APT tools. Aptitude is designed to be an interactive front-end for APT, allowing users to browse, search, and manage packages in a more intuitive way.
 Key features of Aptitude include:
