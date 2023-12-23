@@ -29,16 +29,16 @@
     <li>Servers are designed for rack mounting, offering a form factor of 1U, 2U, or 4U, unlike desktop towers.</li>
     <li>The operating system on servers, such as Windows Server, is distinct from desktop operating systems like Windows 10.</li>
 </ul>
-Types of Servers:
+<h2>Types of Servers:</h2>
 Examples include web servers, application servers, proxy servers, mail servers, virtual servers, blade servers, file servers, policy servers, database servers, and print servers.
 Each type serves specific purposes, such as hosting websites, managing applications, or facilitating file sharing.
-Server Components:
-Hardware:
-Server hardware comprises components like a rack-mount chassis, power supply, system board, CPUs, memory, storage, and network interface.
-Out-of-band management allows remote monitoring and management, independent of the operating system.
-Operating Systems:
-The server operating system, such as Windows Server or Linux, acts as the platform for applications, providing access to hardware resources and network connectivity.
-What is a virtual machine?
+<h2>Server Components:</h2>
+<h3>Hardware:</h3>
+<li>Server hardware comprises components like a rack-mount chassis, power supply, system board, CPUs, memory, storage, and network interface.
+Out-of-band management allows remote monitoring and management, independent of the operating system.</li>
+<h3>Operating Systems:</h3>
+<li>The server operating system, such as Windows Server or Linux, acts as the platform for applications, providing access to hardware resources and network connectivity.</li>
+<h1>What is a virtual machine?</h1>
 A virtual machine (VM) is a simulated representation of a physical computer, functioning as a guest within a host machine. Virtualization allows the creation of multiple VMs on a single physical device, each running its own operating system and applications. To facilitate communication between VMs and the underlying hardware, a hypervisor, a lightweight software layer, is employed. The hypervisor manages the allocation of resources, ensuring isolation between VMs and preventing interference.
 The virtualization process involves the separation of the operating system and applications from the hardware on a bare metal server. This allows the server to be partitioned into independent VMs that share the original resources, such as memory and storage, with the hypervisor overseeing resource allocation to maintain isolation.
 What is a hypervisors?
