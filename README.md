@@ -2,16 +2,16 @@
 
 <h1>What is a server?</h1>
 A server, in computing, is a computer program or device dedicated to providing services to other computer programs, known as clients, and their users. The physical machine hosting a server program is also commonlyreferred to as a server, which may be a dedicated unit or utilized for various purposes.
-In the client/server programming model, a server program awaits and fulfills requests from client programs, <br>either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.
+In the client/server programming model, a server program awaits and fulfills requests from client programs,either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.
 <h1>How Servers Work?</h1>
-Physical and Virtual Servers:
+<b>Physical and Virtual Servers:</b>
 A physical server is a computer solely designated for running server software.
 A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.
-Creation of Virtual Machines:
+<b>Creation of Virtual Machines:</b>b>
 Virtual machines are created by installing a hypervisor on a physical server, allowing it to function as a virtualization host.
 The hypervisor manages the physical server's resources, making them available to multiple virtual machines.
 Administrators can allocate specific hardware resources to each virtual server, optimizing resource utilization.
-Server Software:
+<b>Server Software:</b>
 A server requires at least two software components: an operating system and an application.
 The operating system serves as a platform for running the server application, providing access to hardware resources and dependency services.
 Server software enables communication between clients and the server application.
