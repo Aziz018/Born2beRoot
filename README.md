@@ -5,7 +5,7 @@
     <li>In the client/server programming model, a server program awaits and fulfills requests from client programs,either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.</li>
 </ul>
 <h2>How Servers Work?</h2>
-<b>Physical and Virtual Servers:</b>
+<h3>Physical and Virtual Servers:</h3>
 <ul>
     <li>A physical server is a computer solely designated for running server software.</li>
     <li>A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.</li>
