@@ -4,10 +4,10 @@
 A server, in computing, is a computer program or device dedicated to providing services to other computer programs, known as clients, and their users. The physical machine hosting a server program is also commonlyreferred to as a server, which may be a dedicated unit or utilized for various purposes.
 In the client/server programming model, a server program awaits and fulfills requests from client programs,either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.
 <h1>How Servers Work?</h1>
-<b>Physical and Virtual Servers:</b><br>
+<b>Physical and Virtual Servers:</b>
 <ul>
-<li></li>A physical server is a computer solely designated for running server software.</li>
-</li>A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.</li>
+<li>A physical server is a computer solely designated for running server software.</li>
+<li>A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.</li>
 </ul>
 <b>Creation of Virtual Machines:</b>b>
 Virtual machines are created by installing a hypervisor on a physical server, allowing it to function as a virtualization host.
