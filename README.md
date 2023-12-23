@@ -39,39 +39,39 @@ Out-of-band management allows remote monitoring and management, independent of t
 <h3>Operating Systems:</h3>
 <li>The server operating system, such as Windows Server or Linux, acts as the platform for applications, providing access to hardware resources and network connectivity.</li>
 <h1>What is a virtual machine?</h1>
-A virtual machine (VM) is a simulated representation of a physical computer, functioning as a guest within a host machine. Virtualization allows the creation of multiple VMs on a single physical device, each running its own operating system and applications. To facilitate communication between VMs and the underlying hardware, a hypervisor, a lightweight software layer, is employed. The hypervisor manages the allocation of resources, ensuring isolation between VMs and preventing interference.
-The virtualization process involves the separation of the operating system and applications from the hardware on a bare metal server. This allows the server to be partitioned into independent VMs that share the original resources, such as memory and storage, with the hypervisor overseeing resource allocation to maintain isolation.
-What is a hypervisors?
-A hypervisor, also known as a Virtual Machine Monitor (VMM), is a crucial component in virtualization technology. It is a software or firmware layer that enables the creation and management of virtual machines (VMs) on a physical host machine. The primary function of a hypervisor is to abstract and virtualize the underlying hardware, allowing multiple operating systems to run concurrently on the same physical hardware.
-There are two main types of hypervisors:
-Type 1 Hypervisor (Bare Metal Hypervisor):
-This type of hypervisor runs directly on the physical hardware without the need for a host operating system. It takes control of the hardware resources and manages the execution of multiple VMs independently. Examples of Type 1 hypervisors include VMware ESXi, Microsoft Hyper-V Server, and Xen.
-Type 2 Hypervisor (Hosted Hypervisor):
-In contrast, a Type 2 hypervisor runs on top of a host operating system. It acts as an application and relies on the host OS for resource management. This type is often used for development or testing purposes on desktop or laptop systems. Examples include VMware Workstation, Oracle VirtualBox, and Microsoft Hyper-V (when installed on a Windows OS).
-What is the basic functioning of their virtual machines?
-The basic functioning of virtual machines (VMs) involves creating and managing virtualized instances of computer systems within a host machine.
-Benefits of virtual machines?
-Cost Efficiency:
-Before the adoption of virtualization, organizations spent a considerable portion of their IT budget on acquiring physical servers. With virtualization, robust hardware can accommodate multiple virtual systems, reducing the overall hardware expenditure.
-Extending the lifespan of legacy software is more cost-effective with virtual machines (VMs).
-Efficient Provisioning:
-Recovery from disasters or server failures is expedited in virtualized environments. Virtual machines can be replicated or cloned swiftly, requiring only minutes to bring systems back online, compared to the hours or days needed for physical server replacements.
-Enhanced Productivity:
-IT teams experience increased productivity as they only need to manage the host machines. Traditional datacenters without virtualization face more cumbersome hardware maintenance tasks.
-Streamlined DevOps:
-Maintenance operations have minimal impact on production environments, often eliminating the need for downtime during maintenance tasks.
-VMs facilitate simplified testing and development processes for applications and websites.
-Enhanced Security Through Isolation:
-Virtual machines provide full isolation, ensuring greater security as communications between the guest OS and host pass through the hypervisor.
-Portability for Legacy Applications:
-VMs are standalone and portable, allowing easy copying and cloning between hosts. This feature enables better support for older applications, which may not be compatible with the host OS in containers. 
+<li>A virtual machine (VM) is a simulated representation of a physical computer, functioning as a guest within a host machine. Virtualization allows the creation of multiple VMs on a single physical device, each running its own operating system and applications. To facilitate communication between VMs and the underlying hardware, a hypervisor, a lightweight software layer, is employed. The hypervisor manages the allocation of resources, ensuring isolation between VMs and preventing interference.</li>
+<li>The virtualization process involves the separation of the operating system and applications from the hardware on a bare metal server. This allows the server to be partitioned into independent VMs that share the original resources, such as memory and storage, with the hypervisor overseeing resource allocation to maintain isolation.</li>
+<h2>What is a hypervisors?</h2>
+<li>A hypervisor, also known as a Virtual Machine Monitor (VMM), is a crucial component in virtualization technology. It is a software or firmware layer that enables the creation and management of virtual machines (VMs) on a physical host machine. The primary function of a hypervisor is to abstract and virtualize the underlying hardware, allowing multiple operating systems to run concurrently on the same physical hardware.</li>
+<b>There are two main types of hypervisors:</b>
+<h3>Type 1 Hypervisor (Bare Metal Hypervisor):</h3>
+<li>This type of hypervisor runs directly on the physical hardware without the need for a host operating system. It takes control of the hardware resources and manages the execution of multiple VMs independently. Examples of Type 1 hypervisors include VMware ESXi, Microsoft Hyper-V Server, and Xen.</li>
+<h3>Type 2 Hypervisor (Hosted Hypervisor):</h3>
+<li>In contrast, a Type 2 hypervisor runs on top of a host operating system. It acts as an application and relies on the host OS for resource management. This type is often used for development or testing purposes on desktop or laptop systems. Examples include VMware Workstation, Oracle VirtualBox, and Microsoft Hyper-V (when installed on a Windows OS).</li>
+<h1>What is the basic functioning of their virtual machines?</h1>
+<li>The basic functioning of virtual machines (VMs) involves creating and managing virtualized instances of computer systems within a host machine.</li>
+<h3>Benefits of virtual machines?</h3>
+<h4>Cost Efficiency:</h4>
+<ls>Before the adoption of virtualization, organizations spent a considerable portion of their IT budget on acquiring physical servers. With virtualization, robust hardware can accommodate multiple virtual systems, reducing the overall hardware expenditure.</ls>
+<ls>Extending the lifespan of legacy software is more cost-effective with virtual machines (VMs).</ls>
+<h4>Efficient Provisioning:</h4>
+<ls>Recovery from disasters or server failures is expedited in virtualized environments. Virtual machines can be replicated or cloned swiftly, requiring only minutes to bring systems back online, compared to the hours or days needed for physical server replacements.</ls>
+<h4>Enhanced Productivity:</h4>
+<ls>IT teams experience increased productivity as they only need to manage the host machines. Traditional datacenters without virtualization face more cumbersome hardware maintenance tasks.</ls>
+<h4>Streamlined DevOps:</h4>
+<ls>Maintenance operations have minimal impact on production environments, often eliminating the need for downtime during maintenance tasks.</ls>
+<ls>VMs facilitate simplified testing and development processes for applications and websites.</ls>
+<h4>Enhanced Security Through Isolation:</h4>
+<ls>Virtual machines provide full isolation, ensuring greater security as communications between the guest OS and host pass through the hypervisor.</ls>
+<h4>Portability for Legacy Applications:</h4>
+VMs are standalone and portable, allowing easy copying and cloning between hosts. This feature enables better support for older applications, which may not be compatible with the host OS in containers.
 What is Debian?
 Debian is a renowned free and open-source operating system recognized for its stability, reliability, and strong commitment to free software principles. Developed by a large community of volunteers, Debian is characterized by its use of the Advanced Package Tool (APT) for efficient package management, simplifying the installation, upgrading, and removal of software. The operating system is known for its stable releases, each named after characters from the "Toy Story" movies, such as Debian 9 "Stretch" and Debian 10 "Buster." Debian boasts wide hardware support, accommodating various architectures, making it versatile for diverse computing environments. Emphasizing a community-driven approach, Debian's development process involves democratic decision-making.
 Debian finds extensive use as a server operating system, where its stability is a crucial factor. It is a preferred choice for web servers, database servers, and other server applications. Additionally, Debian serves as a desktop operating system for users valuing stability and a commitment to free software. Ubuntu, one of the most well-known Linux distributions, is derived from Debian, reflecting the influence and significance of Debian in the broader Linux ecosystem.
 What is Rocky Linux:
 Rocky Linux emerged as a response to the discontinuation of CentOS Linux and is designed to be a community-driven, enterprise-grade Linux distribution. Positioned as a downstream, binary-compatible alternative to Red Hat Enterprise Linux (RHEL), Rocky Linux aims to maintain compatibility with RHEL, ensuring that software developed and tested on RHEL can seamlessly run on Rocky Linux without modifications. The project is a community-driven endeavor, similar to its predecessor CentOS, with the objective of providing a free and open-source alternative for users seeking RHEL compatibility.
 Rocky Linux serves various use cases, particularly in server environments, data centers, and cloud settings where compatibility with RHEL is a priority. It caters to users who were accustomed to CentOS but sought a free and community-supported alternative after changes in CentOS development. The project was founded by Gregory Kurtzer, the original creator of CentOS, and operates under the governance of the Rocky Enterprise Software Foundation. As Rocky Linux gains momentum, it stands as a testament to the resilience and adaptability of the open-source community in responding to the evolving needs of users in the Linux ecosystem.
- The choice of operating system and the basic differences between Rocky and Debian?
+The choice of operating system and the basic differences between Rocky and Debian?
 The choice of operating system:
 The choice between Debian and Rocky Linux, like any other Linux distribution, depends on various factors and the specific needs of the user or organization. Both Debian and Rocky Linux are reputable Linux distributions, but they have some key differences that might influence the decision-making process. Here are a few considerations:
 Stability and Long-Term Support (LTS):
@@ -103,7 +103,7 @@ Goals and Focus:
 Debian: Debian aims to be a universal operating system that is free and open source. It prioritizes stability and supports a wide range of use cases and architectures.
 Rocky Linux: Rocky Linux focuses on providing a free, open-source alternative to RHEL, with the goal of offering a stable and predictable platform for enterprise users.
 What is apt and aptitude?
- APT (Advanced Package Tool):
+APT (Advanced Package Tool):
 APT, or Advanced Package Tool, is a powerful package management system used in Debian-based Linux distributions, including Debian itself, Ubuntu, and derivatives. It is a set of tools that automate the process of installing, updating, upgrading, and removing software packages on a Linux system. APT simplifies package management tasks and resolves dependencies, ensuring that software installations and updates are handled efficiently.
 Some common APT commands include:
 apt-get: Used for handling packages. Common commands include apt-get update (updates the package lists), apt-get upgrade (upgrades installed packages), and apt-get install (installs new packages).
