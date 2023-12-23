@@ -1,27 +1,34 @@
-# Born2beRoot
 
 <h1>What is a server?</h1>
-A server, in computing, is a computer program or device dedicated to providing services to other computer programs, known as clients, and their users. The physical machine hosting a server program is also commonlyreferred to as a server, which may be a dedicated unit or utilized for various purposes.
-In the client/server programming model, a server program awaits and fulfills requests from client programs,either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.
-<h1>How Servers Work?</h1>
+<ul>
+    <li>A server, in computing, is a computer program or device dedicated to providing services to other computer programs, known as clients, and their users. The physical machine hosting a server program is also commonlyreferred to as a server, which may be a dedicated unit or utilized for various purposes.</li>
+    <li>In the client/server programming model, a server program awaits and fulfills requests from client programs,either on the same machine or across different computers. The same application on a computer can function as both a client, making requests for services, and a server, fulfilling requests from other programs.</li>
+</ul>
+<h2>How Servers Work?</h2>
 <b>Physical and Virtual Servers:</b>
 <ul>
-<li>A physical server is a computer solely designated for running server software.</li>
-<li>A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.</li>
+    <li>A physical server is a computer solely designated for running server software.</li>
+    <li>A virtual server is a virtualized representation of a physical server, complete with its own operating system and applications, kept separate from other virtual servers on the same physical machine.</li>
 </ul>
-<b>Creation of Virtual Machines:</b>b>
-Virtual machines are created by installing a hypervisor on a physical server, allowing it to function as a virtualization host.
-The hypervisor manages the physical server's resources, making them available to multiple virtual machines.
-Administrators can allocate specific hardware resources to each virtual server, optimizing resource utilization.
-<b>Server Software:</b>
-A server requires at least two software components: an operating system and an application.
-The operating system serves as a platform for running the server application, providing access to hardware resources and dependency services.
-Server software enables communication between clients and the server application.
-Desktop Computers vs. Servers:
-Servers and desktop computers share similarities but differ in several aspects.
-Server hardware often includes multiple CPU sockets, error-correcting memory, and redundant components for mission-critical workloads.
-Servers are designed for rack mounting, offering a form factor of 1U, 2U, or 4U, unlike desktop towers.
-The operating system on servers, such as Windows Server, is distinct from desktop operating systems like Windows 10.
+<h3>Creation of Virtual Machines:</h3>
+<ul>
+    <li>Virtual machines are created by installing a hypervisor on a physical server, allowing it to function as a virtualization host.</li>
+    <li>The hypervisor manages the physical server's resources, making them available to multiple virtual machines.</li>
+    <li>Administrators can allocate specific hardware resources to each virtual server, optimizing resource utilization.</li>
+</ul>
+<h3>Server Software:</h3>
+<ul>
+    <li>A server requires at least two software components: an operating system and an application.</li>
+    <li>The operating system serves as a platform for running the server application, providing access to hardware resources and dependency services.</li>
+    <li>Server software enables communication between clients and the server application.</li>
+</ul>
+<h3>Desktop Computers vs. Servers:</h3>
+<ul>
+    <li>Servers and desktop computers share similarities but differ in several aspects.</li>
+    <li>Server hardware often includes multiple CPU sockets, error-correcting memory, and redundant components for mission-critical workloads.</li>
+    <li>Servers are designed for rack mounting, offering a form factor of 1U, 2U, or 4U, unlike desktop towers.</li>
+    <li>The operating system on servers, such as Windows Server, is distinct from desktop operating systems like Windows 10.</li>
+</ul>
 Types of Servers:
 Examples include web servers, application servers, proxy servers, mail servers, virtual servers, blade servers, file servers, policy servers, database servers, and print servers.
 Each type serves specific purposes, such as hosting websites, managing applications, or facilitating file sharing.
