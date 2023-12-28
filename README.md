@@ -146,12 +146,4 @@ Aptitude is a user-friendly, text-based interface for APT, offering interactive 
 
 Feel free to contribute to this guide by submitting pull requests or suggesting improvements. Your input is valuable!
 
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-Special thanks to the open-source community for their contributions to server and virtualization technologies.
-
 Happy coding!
