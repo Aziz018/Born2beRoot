@@ -23,12 +23,10 @@
     <li>Server software enables communication between clients and the server application.</li>
 </ul>
 <h3>Desktop Computers vs. Servers:</h3>
-<ul>
     <li>Servers and desktop computers share similarities but differ in several aspects.</li>
     <li>Server hardware often includes multiple CPU sockets, error-correcting memory, and redundant components for mission-critical workloads.</li>
     <li>Servers are designed for rack mounting, offering a form factor of 1U, 2U, or 4U, unlike desktop towers.</li>
     <li>The operating system on servers, such as Windows Server, is distinct from desktop operating systems like Windows 10.</li>
-</ul>
 <h2>Types of Servers:</h2>
 Examples include web servers, application servers, proxy servers, mail servers, virtual servers, blade servers, file servers, policy servers, database servers, and print servers.
 Each type serves specific purposes, such as hosting websites, managing applications, or facilitating file sharing.
