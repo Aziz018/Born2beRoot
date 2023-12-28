@@ -232,6 +232,31 @@ sudo ufw allow 8080/tcp
 sudo ufw allow from 192.168.1.100
 ```
 
+### 4. Allow Connections from Specific IP:
+
+```bash
+sudo ufw allow from 192.168.1.100
+```
+- Allows incoming connections from the specified IP address.
+
+### 5. Deny Connections to a Port:
+```bash
+sudo ufw deny 22
+```
+- Denies incoming traffic on port 22. Replace 22 with the desired port number.
+
+### 6. Delete a Rule:
+```bash
+sudo ufw delete allow 8080/tcp
+```
+- Deletes a specific rule, in this case, the rule allowing traffic on port 8080.
+
+### 7. Disable UFW:
+```bash
+sudo ufw disable
+```
+- Deactivates the firewall, allowing all connections.
+
 ---
 
 ## Contributing
