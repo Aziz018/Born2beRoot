@@ -25,12 +25,6 @@ In the client/server model, servers await and fulfill requests from clients, eit
 - Requires at least two components: an operating system and an application.
 - Enables communication between clients and the server application.
 
-#### Desktop Computers vs. Servers
-
-- Servers have distinct hardware features for critical workloads.
-- Designed for rack mounting (1U, 2U, 4U) unlike desktop towers.
-- Operating systems like Windows Server differ from desktop OS like Windows 10.
-
 ## Types of Servers
 
 Examples include web servers, application servers, proxy servers, mail servers, virtual servers, blade servers, file servers, policy servers, database servers, and print servers.
