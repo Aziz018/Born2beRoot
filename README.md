@@ -222,7 +222,7 @@ sudo ufw allow ssh
 
 ### 3. Allow a Specific Port:
 
-``` bash
+```bash
 sudo ufw allow 8080/tcp
 ```
 
