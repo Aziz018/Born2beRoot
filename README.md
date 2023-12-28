@@ -213,24 +213,21 @@ To enable AppArmor and create profiles for specific applications, you can use th
 ```bash
 sudo ufw enable
 ```
+- This command activates the firewall, applying default deny rules to incoming and outgoing traffic.
 
 ### 2. Allow SSH:
 
 ```bash
 sudo ufw allow ssh
 ```
+- Allows incoming SSH traffic. You can replace ssh with the specific port number if using a non-default SSH port.
 
 ### 3. Allow a Specific Port:
 
 ```bash
 sudo ufw allow 8080/tcp
 ```
-
-### 4. Allow Connections from Specific IP:
-
-```bash
-sudo ufw allow from 192.168.1.100
-```
+- Allows incoming traffic on port 8080. Replace 8080 with the desired port number.
 
 ### 4. Allow Connections from Specific IP:
 
