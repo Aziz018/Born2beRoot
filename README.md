@@ -106,11 +106,11 @@ Rocky Linux: Rocky Linux focuses on providing a free, open-source alternative to
 <h2>APT (Advanced Package Tool):</h2>
 <ls>APT, or Advanced Package Tool, is a powerful package management system used in Debian-based Linux distributions, including Debian itself, Ubuntu, and derivatives. It is a set of tools that automate the process of installing, updating, upgrading, and removing software packages on a Linux system. APT simplifies package management tasks and resolves dependencies, ensuring that software installations and updates are handled efficiently.</ls>
 <h3>Some common APT commands include:</h3>
-    <ls>apt-get: Used for handling packages. Common commands include apt-get update (updates the package lists).</ls>
-    <ls>apt-get upgrade (upgrades installed packages), and apt-get install (installs new packages).</ls>
-    <ls>apt-cache: Used for querying information about available packages.</ls>
-    <ls>apt-key: Used for managing authentication keys.</ls>
-    <ls>apt-config: Used for querying APT configuration settings.</ls>
+<ls>apt-get: Used for handling packages. Common commands include apt-get update (updates the package lists).</ls>
+<ls>apt-get upgrade (upgrades installed packages), and apt-get install (installs new packages).</ls>
+<ls>apt-cache: Used for querying information about available packages.</ls>
+<ls>apt-key: Used for managing authentication keys.</ls>
+<ls>apt-config: Used for querying APT configuration settings.</ls>
 Aptitude:
 Aptitude is another package management tool used in Debian-based systems. It provides a more user-friendly, text-based interface compared to the command-line APT tools. Aptitude is designed to be an interactive front-end for APT, allowing users to browse, search, and manage packages in a more intuitive way.
 Key features of Aptitude include:
