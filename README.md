@@ -113,7 +113,6 @@ Aptitude is a user-friendly, text-based interface for APT, offering interactive 
 - Usage and Commands
 - Dependency Handling
 - User Recommendations
-- Additional Features
 
 ### User Interface:
 
@@ -134,11 +133,6 @@ Aptitude is a user-friendly, text-based interface for APT, offering interactive 
 
 - **apt:** Recommended for common tasks due to simplicity.
 - **aptitude:** Considered more advanced, suitable for users preferring an interactive interface or requiring advanced features.
-
-### Additional Features:
-
-- **apt:** Focuses primarily on package management tasks within the APT ecosystem.
-- **aptitude:** Provides additional features for package search, interactive exploration of dependencies, and an extended package management interface.
 
 ---
 
