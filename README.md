@@ -214,6 +214,24 @@ To enable AppArmor and create profiles for specific applications, you can use th
 sudo ufw enable
 ```
 
+### 2. Allow SSH:
+
+```bash
+sudo ufw allow ssh
+```
+
+### 3. Allow a Specific Port:
+
+``` bash
+sudo ufw allow 8080/tcp
+```
+
+### 4. Allow Connections from Specific IP:
+
+```bash
+sudo ufw allow from 192.168.1.100
+```
+
 ---
 
 ## Contributing
