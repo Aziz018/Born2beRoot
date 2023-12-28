@@ -106,7 +106,7 @@ Rocky Linux: Rocky Linux focuses on providing a free, open-source alternative to
 <h2>APT (Advanced Package Tool):</h2>
 <ls>APT, or Advanced Package Tool, is a powerful package management system used in Debian-based Linux distributions, including Debian itself, Ubuntu, and derivatives. It is a set of tools that automate the process of installing, updating, upgrading, and removing software packages on a Linux system. APT simplifies package management tasks and resolves dependencies, ensuring that software installations and updates are handled efficiently.</ls>
 <h2>Aptitude:</h2>
-<ls>Aptitude is another package management tool used in Debian-based systems. It provides a more user-friendly, text-based interface compared to the command-line APT tools. Aptitude is designed to be an interactive front-end for APT, allowing users to browse, search, and manage packages in a more intuitive way.</ls>
+<pre>Aptitude is another package management tool used in Debian-based systems. It provides a more user-friendly, text-based interface compared to the command-line APT tools. Aptitude is designed to be an interactive front-end for APT, allowing users to browse, search, and manage packages in a more intuitive way.
 Key features of Aptitude include:
 Interactive Interface: Aptitude offers an interactive, menu-driven interface that allows users to navigate through package lists, view package details, and perform actions with fewer commands.
 Dependency Resolution: Aptitude is known for its robust dependency resolution capabilities. It can handle complex package dependencies and suggest solutions for installing or removing packages.
@@ -129,3 +129,4 @@ aptitude: While aptitude is a powerful tool, it is not always installed by defau
 Additional Features:
 apt: apt is focused primarily on package management tasks. It is part of the APT ecosystem and is designed to work well with other APT tools.
 aptitude: In addition to package management, aptitude also provides features for package search, interactive exploration of package dependencies, and an extended interface for managing packages.
+</pre>
