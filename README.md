@@ -180,84 +180,11 @@ AppArmor, short for Application Armor, is a Linux kernel security module that re
 
 To enable AppArmor and create profiles for specific applications, you can use the `apparmor` command-line tools. Profiles are typically stored in the `/etc/apparmor.d/` directory.
 
-## What is AppArmor?
+## Examples of Using AppArmor Commands:
 
-AppArmor, short for Application Armor, is a Linux kernel security module that restricts the capabilities of individual programs, isolating them from the rest of the system. It is a mandatory access control (MAC) system that confines programs to a limited set of resources and capabilities, reducing the potential impact of security vulnerabilities.
-
-### Key Features of AppArmor:
-
-- **Profile-Based Security:** AppArmor uses profiles to define the resources and capabilities available to a specific program. Each program can have its own profile, specifying what it is allowed to do.
-
-- **Path-Based Control:** AppArmor controls access based on file paths, making it effective in protecting against unauthorized access to critical system files.
-
-- **Run-Time Configuration:** Profiles can be loaded and unloaded at run time without requiring a system restart. This flexibility allows administrators to adjust security policies as needed.
-
-- **Easy Adoption:** AppArmor is designed to be user-friendly and easy to adopt. It provides tools for creating, modifying, and managing profiles, simplifying the process of securing applications.
-
-### How AppArmor Works:
-
-1. **Profile Creation:** Administrators define profiles for individual programs, specifying the resources and capabilities the programs need.
-
-2. **Profile Enforcement:** When a program is executed, AppArmor enforces the restrictions defined in its profile. If the program attempts to access resources or perform actions outside its profile, AppArmor prevents those actions.
-
-3. **Logging and Auditing:** AppArmor logs enforcement actions, providing administrators with information about potential security threats or misconfigurations.
-
-### Using AppArmor:
-
-To enable AppArmor and create profiles for specific applications, you can use the `apparmor` command-line tools. Profiles are typically stored in the `/etc/apparmor.d/` directory.
-
-## Examples of Using UFW:
-
-### 1. Enable UFW:
+### 1. Enabling AppArmor:
 
 ```bash
-sudo ufw enable
+sudo systemctl enable apparmor
+sudo systemctl start apparmor
 ```
-- This command activates the firewall, applying default deny rules to incoming and outgoing traffic.
-
-### 2. Allow SSH:
-
-```bash
-sudo ufw allow ssh
-```
-- Allows incoming SSH traffic. You can replace ssh with the specific port number if using a non-default SSH port.
-
-### 3. Allow a Specific Port:
-
-```bash
-sudo ufw allow 8080/tcp
-```
-- Allows incoming traffic on port 8080. Replace 8080 with the desired port number.
-
-### 4. Allow Connections from Specific IP:
-
-```bash
-sudo ufw allow from 192.168.1.100
-```
-- Allows incoming connections from the specified IP address.
-
-### 5. Deny Connections to a Port:
-```bash
-sudo ufw deny 22
-```
-- Denies incoming traffic on port 22. Replace 22 with the desired port number.
-
-### 6. Delete a Rule:
-```bash
-sudo ufw delete allow 8080/tcp
-```
-- Deletes a specific rule, in this case, the rule allowing traffic on port 8080.
-
-### 7. Disable UFW:
-```bash
-sudo ufw disable
-```
-- Deactivates the firewall, allowing all connections.
-
----
-
-## Contributing
-
-Feel free to contribute to this guide by submitting pull requests or suggesting improvements. Your input is valuable!
-
-Happy coding!
