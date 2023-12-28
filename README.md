@@ -188,3 +188,6 @@ To enable AppArmor and create profiles for specific applications, you can use th
 sudo systemctl enable apparmor
 sudo systemctl start apparmor
 ```
+
+
+...
