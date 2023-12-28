@@ -212,6 +212,7 @@ To enable AppArmor and create profiles for specific applications, you can use th
 
 ```bash
 sudo ufw enable
+```
 
 ---
 
