@@ -188,6 +188,34 @@ To enable AppArmor and create profiles for specific applications, you can use th
 sudo systemctl enable apparmor
 sudo systemctl start apparmor
 ```
-
-
+- Enables and starts the AppArmor service on the system.
+2. Checking AppArmor Status:
+bash
+---
+sudo apparmor_status
+Displays the current status and information about enforced profiles.
+3. Creating an AppArmor Profile:
+bash
+Copy code
+sudo aa-genprof /path/to/your/application
+Generates a new AppArmor profile for the specified application, analyzing its behavior.
+4. Enforcing an AppArmor Profile:
+bash
+Copy code
+sudo aa-enforce /etc/apparmor.d/your_application_profile
+Enforces the specified AppArmor profile for enhanced security.
+5. Disabling an AppArmor Profile:
+bash
+Copy code
+sudo aa-disable /etc/apparmor.d/your_application_profile
+Temporarily disables the specified AppArmor profile.
+6. Loading and Unloading AppArmor Profiles:
+bash
+Copy code
+sudo apparmor_parser -r -W /etc/apparmor.d/your_application_profile
+Reloads and enforces the specified AppArmor profile without restarting the system.
+bash
+Copy code
+sudo apparmor_parser -R /etc/apparmor.d/your_application_profile
+Unloads the specified AppArmor profile.
 ...
